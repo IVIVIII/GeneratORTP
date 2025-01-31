@@ -89,4 +89,11 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
-
+ Enable password history
+Registry Hive	HKEY_CURRENT_USER
+Registry Path	Software\Utimaco\SGPC
+Value Name	LogEnabled
+Value Type	REG_DWORD
+Default Value	0
+True Value	1
+False Value	0
